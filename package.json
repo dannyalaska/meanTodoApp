@@ -1,0 +1,30 @@
+{
+  "name": "mean_todo_app",
+  "version": "1.0.0",
+  "description": "mean stack todo app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyalaska/meanTodoApp.git"
+  },
+  "author": "Danny!",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannyalaska/meanTodoApp/issues"
+  },
+  "homepage": "https://github.com/dannyalaska/meanTodoApp#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "mongoose": "^4.2.9",
+    "morgan": "^1.6.1"
+  }
+}

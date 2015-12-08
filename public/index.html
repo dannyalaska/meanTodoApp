@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Danny's Todo App</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.js"></script>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <h1>Getting Shit Done<span id="subtitle"> all Day Every Day</span></h1>
+
+  <h2>Session</h2>
+  <section id="session"></section>
+
+  <h2>Sign Up</h2>
+  <section id="signup">
+    <input type="text" id="signup-username" placeholder="username">
+    <input type="password" id="signup-password" placeholder="password">
+    <button id="signup-button">Sign Up</button>
+  </section>
+
+  <h2>Users</h2>
+  <section id="users"></section>
+
+  <h2>New Todo</h2>
+  <section id="new-todo">
+    <textarea name="" id="new-todo-content" cols="30" rows="10"></textarea><br>
+    <button id="new-todo-button">Create Todo</button>
+  </section>
+
+  <template id="login-template">
+    <input type="text" id="login-username" placeholder="username">
+    <input type="password" id="login-password" placeholder="password">
+    <button id="login-button">Log In</button>
+  </template>
+
+  <template id="user-template">
+    <p>
+      Welcome back, {{username}} -
+      <button id="logout-button">Logout</button>
+    </p>
+  </template>
+
+</body>
+</html>
